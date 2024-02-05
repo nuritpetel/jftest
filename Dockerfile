@@ -1,5 +1,5 @@
 # Use the official Python image as the base image
-FROM python:3-alpine
+FROM python:latest
 
 # Copy the Python script to the container
 COPY script.py .
